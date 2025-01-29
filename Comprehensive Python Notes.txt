@@ -1,0 +1,137 @@
+PYTHON:
+
+Python was created by Guido van Rossum and first released in 1991. The name "Python" was inspired by the British comedy group Monty Python's Flying Circus.
+
+Python Basics:
+REPL: Stands for Read-Eval-Print Loop. It's an interactive Python shell that evaluates expressions and prints the result.
+
+Data Types:
+
+Basic Data Types:
+
+int: Integer numbers (e.g., 42).
+float: Decimal numbers (e.g., 3.14).
+complex: Numbers with real and imaginary parts (e.g., 1+2j).
+bool: Boolean values (True or False).
+str: Strings of characters (e.g., "Hello").
+
+Composite Data Types:
+
+list: Ordered, mutable collection.
+Example: my_list = [1, "apple", 3.14]
+
+tuple: Ordered, immutable collection.
+Example: my_tuple = (1, "banana", 2.5)
+
+set: Unordered collection of unique items.
+Example: my_set = {1, 2, 3}
+
+dict: Collection of key-value pairs.
+Example: my_dict = {"key1": "value1", "key2": "value2"}
+
+frozenset: Immutable set.
+Example: my_frozenset = frozenset([1, 2, 3])
+
+range: Sequence of numbers, typically used in loops.
+Example: range(5) generates numbers 0 to 4.
+c
+Special Data Type:
+
+NoneType: Represents the absence of a value, with only one value: None.
+
+Typecasting:
+
+Implicit Typecasting:
+
+Python automatically converts one data type to another.
+Example: x = 5 + 2.0 results in x being a float (7.0).
+
+Explicit Typecasting:
+
+The user manually converts one data type to another using functions like int(), float(), str().
+Example: x = int("42") converts the string "42" to an integer 42.
+
+String Handling:
+
+String Basics:
+A string is an immutable sequence of characters used to store text.
+
+String Slicing:
+
+string[start:stop:step]
+
+start: Inclusive starting index.
+stop: Exclusive ending index.
+step: Increment between indices.
+
+Example: my_string = "Python" → my_string[0:3] gives "Pyt".
+
+Common String Functions:
+
+len(): Returns the length of the string.
+lower(): Converts to lowercase.
+upper(): Converts to uppercase.
+strip(): Removes leading/trailing spaces.
+replace("old", "new"): Replaces substrings.
+split(): Splits string into a list.
+join(): Joins elements of a list into a string.
+find("substring"): Finds the first occurrence of a substring.
+count("substring"): Counts occurrences of a substring.
+startswith("prefix"): Checks if string starts with a substring.
+endswith("suffix"): Checks if string ends with a substring.
+
+Escape Sequences:
+
+\n: Newline.
+\t: Tab.
+\\: Backslash.
+\': Single quote.
+\": Double quote.
+\b: Backspace.
+
+List:
+Definition: Ordered, mutable collection of items.
+
+Common Methods:
+
+append(item): Adds an item to the end.
+extend(iterable): Adds elements from another iterable.
+insert(index, item): Inserts an item at a specific index.
+remove(item): Removes the first occurrence.
+pop(index): Removes and returns an item at the index.
+clear(): Removes all items.
+sort(): Sorts the list.
+reverse(): Reverses the list.
+
+Tuple:
+Definition: Ordered, immutable collection of items.
+
+Common Methods:
+
+count(item): Counts occurrences of an item.
+index(item): Returns the index of an item.
+
+Dictionary:
+Definition: Collection of unique key-value pairs.
+
+Common Methods:
+
+get(key, default): Returns value for a key, or a default if not found.
+keys(): Returns all keys.
+values(): Returns all values.
+items(): Returns key-value pairs as tuples.
+update(other_dict): Updates with another dictionary.
+pop(key): Removes a key and returns its value.
+clear(): Removes all items.
+
+Set:
+Definition: Unordered collection of unique items.
+
+Common Methods:
+
+add(item): Adds an item.
+remove(item): Removes an item (raises error if not found).
+discard(item): Removes an item (no error if not found).
+union(set): Combines two sets.
+intersection(set): Returns common items.
+difference(set): Returns items in the first set but not the second.
